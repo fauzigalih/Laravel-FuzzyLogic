@@ -1,0 +1,15 @@
+html {
+    display: grid;
+    grid-template-areas: 
+    "body",
+    "footer";
+    align-content: space-between;
+}
+
+body {
+    grid-area: body;
+}
+
+footer {
+    grid-area: footer;
+}
